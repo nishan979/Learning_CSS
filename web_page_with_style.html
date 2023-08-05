@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>
+</title>
+<style type="text/css">
+    #green {
+        color: green;
+    }
+
+    #red {
+        color: red;
+    }
+
+    #underline {
+        text-decoration: underline;
+    }
+
+    #first-section {
+        color: blue;
+        background-color: pink;
+        width: 200px;
+        margin-left: 10px;
+        float: left;
+        
+    }
+
+    #second-section {
+        background-color: yellow;
+        width: 200px;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .clear-float {
+        clear: both;
+    }
+</style>
+
+<head>
+    <div id="first-section">
+        <p>The quick brown fox over the lazy dog</p>
+
+        <p>Wow, I love internal CSS!</p>
+    </div>
+    <div id="second-section">
+        <p id="green">This is some more text.<span id="underline">And this text is underlined.</span></p>
+        <h1 id="red">CSS is cool!</h1>
+    </div>
+
+    <div class="clear-float"></div>
+    <p>This paragraph is not floated!</p>
+
+</head>
+
+</html>
